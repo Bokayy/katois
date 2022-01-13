@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+html{
+    background: url("3867571-1373125886-art-scale-4_00x-gigapixel.png") no-repeat center center/cover fixed;
+}
+
+#ekran {
+    width: 780px;
+    height: 514px;
+    background-image: url(assets/tv.png);
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 27px 15px 80px;
+}
+
+#ekran iframe {
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+}
+
+
+/* img{
+    max-height: 10%;
+    max-width: 20%;
+    transform: skew(7deg,350deg) translate(165px, 320px) rotate(3deg);
+    z-index: 1;
+}
+
+.televizor{
+    transform: skew(7deg,350deg) translate(-305px, 144px) rotate(3deg);
+    height: 26.7rem;
+    width: 71rem;
+    overflow: hidden;
+}
+
+/* iframe{
+    z-index: 2;
+    transform: skew(7deg,350deg) translate(-305px, 144px) rotate(3deg);
+    height: 26.7rem;
+    width: 71rem;
+} 
+
+iframe > #document > html > body > img{
+    height: 100%;
+} */
