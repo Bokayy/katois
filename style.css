@@ -14,19 +14,21 @@ body{
     position: relative;
 }
 
-/* main{
+main{
     display: flex;
     height: 100vh;
     width: 100vw;
-} */
+}
 
+.media
+{
+    position: absolute;
+}
 
 #vhs{
-    margin-top: 60.2rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 8rem;
-    transform: skew(343deg,10deg);
+    margin-top: -4.799999999999997rem;
+    margin-left: 189rem;
+    transform: skew(343deg,11deg);
 }
 
 #ekran {
@@ -45,29 +47,16 @@ iframe {
     background-color: black;
 }
 
-
-
-/* img{
-    max-height: 10%;
-    max-width: 20%;
-    transform: skew(7deg,350deg) translate(165px, 320px) rotate(3deg);
-    z-index: 1;
-}
-
-.televizor{
-    transform: skew(7deg,350deg) translate(-305px, 144px) rotate(3deg);
-    height: 26.7rem;
-    width: 71rem;
-    overflow: hidden;
-}
-
-/* iframe{
+.smoke{
+    margin-top: 49rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 134rem;
     z-index: 2;
-    transform: skew(7deg,350deg) translate(-305px, 144px) rotate(3deg);
-    height: 26.7rem;
-    width: 71rem;
-} 
+    position: absolute;
+}
 
-iframe > #document > html > body > img{
-    height: 100%;
-} */
+.smoke:hover{
+    opacity: 0 ;
+    transition: 1s ease-in-out all;
+}
