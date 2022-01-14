@@ -9,20 +9,42 @@ html{
     background: url("3867571-1373125886-art-scale-4_00x-gigapixel.png") no-repeat center center/cover fixed;
 }
 
+body{
+    display: flex;
+    position: relative;
+}
+
+/* main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+} */
+
+
+#vhs{
+    margin-top: 60.2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    transform: skew(343deg,10deg);
+}
+
 #ekran {
-    width: 780px;
-    height: 514px;
+    width: 305px;
+    height: 204px;
     background-image: url(assets/tv.png);
-    margin: 50px auto;
+    margin: 43rem 2rem 2rem 148rem;
     box-sizing: border-box;
     padding: 27px 15px 80px;
 }
 
-#ekran iframe {
-    width: 100%;
-    height: 100%;
-    background-color: lime;
+iframe {
+    width: 102%;
+    height: 160%;
+    margin: -1.5rem 0rem 1rem -0.5rem;
+    background-color: black;
 }
+
 
 
 /* img{
