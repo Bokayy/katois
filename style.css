@@ -121,7 +121,7 @@ img.onio{
 }
 
 #sekcija1{
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 13rem 1rem 1rem 120rem;
     position: absolute;
 }
 
@@ -173,19 +173,19 @@ img.onio{
 
 
 .red1.stupac1 {
-    background-color: #FBBA72;
+    background-image: url(assets/33167e4ed29134012fde20280dbac3b2.jpg);
 }
 .red1.stupac3 {
-    background-color: #2DC7FF;
+    background-image: url(assets/33167e4ed29134012fde20280dbac3b2.jpg);
 }
 .red1.stupac5 {
-    background-color: #D11149;
+    background-image: url(assets/33167e4ed29134012fde20280dbac3b2.jpg);
 }
 .red2.stupac2 {
-    background-color: #CA5310;
+    background-image: url(assets/33167e4ed29134012fde20280dbac3b2.jpg);
 }
 .red2.stupac4 {
-    background-color: #00ABE7;
+    background-image: url(assets/33167e4ed29134012fde20280dbac3b2.jpg);
 }
 
 @keyframes extender {
@@ -207,3 +207,11 @@ img.onio{
     75%  {transform: translate(-200px, 200px)}
     100% {transform: translate(0px, 200px)}
 }
+
+
+/* @media screen and (max-width:1080px) {
+    *{
+        font-size:50%;
+    }
+    
+} */
