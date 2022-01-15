@@ -12,6 +12,7 @@ html{
 body{
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 
 main{
@@ -59,4 +60,75 @@ iframe {
 .smoke:hover{
     opacity: 0 ;
     transition: 1s ease-in-out all;
+}
+
+.komoda{
+    overflow: hidden;
+    display: flex;
+    flex-direction:column;
+    width: 22rem;
+    height: 13rem;
+    color: rgb(70, 62, 62);
+    font-size: 2rem;
+    margin-top: 64rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 226rem;
+    transform: rotate(357deg) skew(352deg, 14deg);
+
+    background-color: rgb(236, 198, 148);
+    z-index: 3;
+}
+
+.komoda:hover,
+.komoda:visited{
+    animation-name: extender;
+    animation-duration: 2s ;
+    animation-fill-mode: forwards;
+    height: 13rem;
+    font-size: 2rem;
+    /* animation-direction: forwards; */
+}
+
+.shrek{
+    display: block;
+    position: absolute;
+    margin-top: 86rem;
+    margin-left: -17rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+img.onio{
+    height: 10rem;
+    margin-top: 0rem;
+    margin-left: 249rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.shrek:hover,
+.shrek:visited{
+    animation-name: moveit;
+    animation-duration: 4s;
+}
+
+@keyframes extender {
+    from{
+        height: 13rem;
+        font-size: 2rem;
+    }
+    to{
+        height: 30rem;
+        font-size: 4rem;
+    }
+
+}
+
+@keyframes moveit {
+    0%   {transform: translate(0px, 0px)}
+    25%  {transform: translate(-200px, 0px)}
+    50%  {transform: translate(-200px, 200px)}
+    75%  {transform: translate(-200px, 200px)}
+    100% {transform: translate(0px, 200px)}
 }
