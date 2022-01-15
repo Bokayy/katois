@@ -60,6 +60,7 @@ iframe {
 .smoke:hover{
     opacity: 0 ;
     transition: 1s ease-in-out all;
+    transform: rotateZ(360deg);
 }
 
 .komoda{
