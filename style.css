@@ -35,7 +35,7 @@ main{
 #ekran {
     width: 305px;
     height: 204px;
-    background-image: url(assets/tv.png);
+    background-image: url(assets/tv_small.png);
     margin: 43rem 2rem 2rem 148rem;
     box-sizing: border-box;
     padding: 27px 15px 80px;
